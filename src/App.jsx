@@ -8,7 +8,7 @@ import SidebarMain from './Pages/SidebarMain';
 import HomePage from './Pages/HomePage';
 import ProgrammingSkill from './Pages/ProgrammingSkill';
 import Experiences from './Pages/Experiences';
-import Showcase from './Pages/Showcase';
+import Contract from './Pages/Contract';
 // import {
 //   Sidebar, Logo_content, Logo_name, Sidebar_ul, Logo, Side_a
 //   , Profile_content, Profile, Profile_details, name_job, Name, Job, Sidebar_li, Sidebar_i
@@ -26,6 +26,8 @@ import Showcase from './Pages/Showcase';
 const Div = styled.div`
 font-family: 'Source Code Pro', monospace;
   display:flex;
+  min-height: 1000px;
+  background-image :url("https://i.ibb.co/MpNBtHZ/6-1.png");
 
 `
 
@@ -39,7 +41,7 @@ function App() {
         <Route path='/' element={<HomePage />} />
         <Route path='/programmingskill' element={< ProgrammingSkill />} />
         <Route path='/experiences' element={< Experiences />} />
-        <Route path='/showcase' element={< Showcase />} />
+        <Route path='/contract' element={< Contract />} />
       </Routes>
       {/* <HeaderContainer>
         <Container1>

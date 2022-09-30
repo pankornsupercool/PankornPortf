@@ -34,9 +34,8 @@ export const Sidebar_ul = styled.ul`
 export const Sidebar_li = styled.li`
     display:flex;
     height: 40px;
-    width 100%;
+    width 90%;
     list-style: none;
-    margin : 0 5px;
     align-items:center;
     border-radius: 5px;
     padding : 5px;

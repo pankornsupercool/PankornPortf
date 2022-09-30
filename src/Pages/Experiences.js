@@ -3,12 +3,18 @@ import {
     Container1,
     ExpContainer,
     MainContainer1,
+    MainContainer2,
+    MainContainer3
 } from '../Interface/Experiences';
-
+import { motion } from 'framer-motion';
 function Experiences() {
     return (
         <ExpContainer>
-            <MainContainer1>
+            <MainContainer1 as={motion.div}
+                initial={{ opacity: 0, scale: 0.5 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.9, delay: 0.2, ease: [0, 0.71, 0.2, 1.01] }}
+            >
                 <Container1>
                     <h1>Army Air Defense System | 2020-2021</h1>
                     <p>Working with BU-MIT LAB TEAM ✈️</p>
@@ -24,11 +30,14 @@ function Experiences() {
                         directions.
                     </p>
                     <p>Using : C#, Window Form, .NET, GMap</p>
-                    <h1>🔻</h1>
                 </Container1>
             </MainContainer1>
 
-            <MainContainer1>
+            <MainContainer2 as={motion.div}
+                initial={{ opacity: 0, scale: 0.5 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.9, delay: 0.2, ease: [0, 0.71, 0.2, 1.01] }}
+            >
                 <Container1>
                     <h1>The Rich Decentralized Finance | 2021-2022</h1>
                     <p>Graduation Project 🪙</p>
@@ -46,7 +55,7 @@ function Experiences() {
                     <p>Using : React, Styled-Components, Solidity, Framer-motion</p>
                     <A1 href='https://therichdex.netlify.app/#/'>Visit Website</A1>
                 </Container1>
-            </MainContainer1>
+            </MainContainer2>
         </ExpContainer>
     );
 }

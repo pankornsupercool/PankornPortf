@@ -41,31 +41,11 @@ function SidebarMain() {
                     </Side_a>
                 </Sidebar_li>
                 {/* Space */}
-                <Sidebar_li>
-                    <Side_a as={Link} to="/bookshelf">
-                        <i class='bx bx-spa' ></i>
-                        <span>Bookshelf</span>
-                    </Side_a>
-                </Sidebar_li>
                 {/* Space */}
                 <Sidebar_li>
-                    <Side_a as={Link} to="/trading">
+                    <Side_a as={Link} to="/contract">
                         <i class='bx bx-spa' ></i>
-                        <span>Trading</span>
-                    </Side_a>
-                </Sidebar_li>
-                {/* Space */}
-                <Sidebar_li>
-                    <Side_a as={Link} to="/showcase">
-                        <i class='bx bx-spa' ></i>
-                        <span>Showcase</span>
-                    </Side_a>
-                </Sidebar_li>
-                {/* Space */}
-                <Sidebar_li>
-                    <Side_a href="#">
-                        <i class='bx bx-spa' ></i>
-                        <span>GitHub & LinkedIn</span>
+                        <span>Contract Portal</span>
                     </Side_a>
                 </Sidebar_li>
                 {/* Space */}

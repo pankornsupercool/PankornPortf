@@ -23,8 +23,8 @@ function ProgrammingSkill() {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.9, delay: 0.2, ease: [0, 0.71, 0.2, 1.01] }}
             >
-                <p>🔸HTML/CSS 🔸React 🔸Styled-Components</p>
-                <p>🔸UI Prototype 🔸Wireframe 🔸Infograhphic</p>
+                <p>🔸HTML/CSS 🔸React.js 🔸Javascript</p>
+                <p>🔸Styled-Components 🔸Node.js 🔸Python</p>
                 <p>🔸C# 🔸Window Form 🔸GMap 🔸.NET</p>
                 <p>🔸Spreadsheet 🔸Figma 🔸Canva</p>
             </SkillContainer1>
