@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/PankornPortf/static/css/main.2cbaf8c4.css",
+    "main.js": "/PankornPortf/static/js/main.fc1a4b38.js",
+    "static/js/787.deeec6c3.chunk.js": "/PankornPortf/static/js/787.deeec6c3.chunk.js",
+    "index.html": "/PankornPortf/index.html",
+    "main.2cbaf8c4.css.map": "/PankornPortf/static/css/main.2cbaf8c4.css.map",
+    "main.fc1a4b38.js.map": "/PankornPortf/static/js/main.fc1a4b38.js.map",
+    "787.deeec6c3.chunk.js.map": "/PankornPortf/static/js/787.deeec6c3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2cbaf8c4.css",
+    "static/js/main.fc1a4b38.js"
+  ]
+}
