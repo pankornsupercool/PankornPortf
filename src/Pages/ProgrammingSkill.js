@@ -47,7 +47,7 @@ function ProgrammingSkill() {
                 <p>🔹Positive and growth attitude</p>
                 <p>🔹Learn Unlearn Relearn</p>
                 <p>🔹Communicate in English</p>
-                <p>🔹Fall and get up fast</p>
+                <p>🔹Fall and get up fast (</p>
             </SkillContainer1>
             <SkillContainer2>
                 <motion.h1
@@ -66,7 +66,7 @@ function ProgrammingSkill() {
             >
                 <p>🔻Day Trading</p>
                 <p>🔻Investing</p>
-                <p>🔻Short-Medium term forex analysis</p>
+                <p>🔻Short-Mid term forex,indices analysis</p>
             </SkillContainer1>
             <Typed
                 strings={['🍏 🍎 🍐 🍊 🍋 🍌 🍉 🍇 🍓 🫐 🍈 🍒 🍑 🥭']}
